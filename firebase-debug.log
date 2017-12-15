@@ -96,3 +96,16 @@
     at ClientRequest.emit (events.js:188:7)
     at TLSSocket.socketErrorListener (_http_client.js:310:9)
     at emitOne (events.js:96:13)
+[debug] [2017-12-15T20:12:33.843Z] ----------------------------------------------------------------------
+[debug] [2017-12-15T20:12:33.846Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Beast\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase login
+[debug] [2017-12-15T20:12:33.846Z] CLI Version:   3.16.0
+[debug] [2017-12-15T20:12:33.846Z] Platform:      win32
+[debug] [2017-12-15T20:12:33.846Z] Node Version:  v6.10.2
+[debug] [2017-12-15T20:12:33.846Z] Time:          Fri Dec 15 2017 20:12:33 GMT+0000 (GMT (czas standardowy))
+[debug] [2017-12-15T20:12:33.847Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1023028351&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
