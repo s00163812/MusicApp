@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'app';
 
   public ngOnInit(): void{
+    
     const firebaseConfig = {
       apiKey: "AIzaSyDNkTlouN_OBLZKfe-R0901RONGmA2sZrk",
       authDomain: "music-app-01.firebaseapp.com",

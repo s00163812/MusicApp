@@ -12,7 +12,7 @@ export class AlbumListComponent {
   imageMargin: number = 4;
 
   albums: any[] = [
-
+    // two hard coded albums to display on the page for trending now section
     {
       'albumId' : 1,
       'albumName': 'None Of The Clocks Work',

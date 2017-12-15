@@ -12,6 +12,7 @@ import { NotificationService } from '../services/notification.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  // variables needed to log in
   email: string;
   pass: string;
   constructor(private auth: AuthService) { }
@@ -19,6 +20,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+  //login method
   login() {
     this.auth.login(this.email, this.pass);
     console.log(this.email);

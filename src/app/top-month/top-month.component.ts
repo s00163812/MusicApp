@@ -12,7 +12,7 @@ export class TopMonthComponent {
   imageMargin: number = 4;
 
   albums: any[] = [
-
+    // two hard coded albums to display on the page for top of the month
     {
       'albumId' : 5,
       'albumName': 'Better',

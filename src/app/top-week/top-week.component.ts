@@ -12,7 +12,7 @@ export class TopWeekComponent {
   imageMargin: number = 4;
 
   albums: any[] = [
-
+    // two hard coded albums to display on the page for top of the week section
     {
       'albumId' : 7,
       'albumName': 'Nothing Was The Same(Deluxe)',

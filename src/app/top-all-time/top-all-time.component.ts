@@ -7,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopAllTimeComponent {
 
+  // variables for page title and image size
   pageTitle: string = "Music App";
   imageWidth: number = 50;
   imageMargin: number = 4;
 
   albums: any[] = [
-
+    // two hard coded albums to display on the page for top of all time section
     {
       'albumId' : 3,
       'albumName': 'Without Warning',

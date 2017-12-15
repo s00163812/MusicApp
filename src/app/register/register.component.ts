@@ -12,6 +12,7 @@ import { NotificationService } from '../services/notification.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
+  //variables for a user registration
   email: string;
   pwd: string;
   username: string;
@@ -22,8 +23,9 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {
   }
 
+  //registration
   register() {
-    this.auth.signup(this.email, this.pwd, this.username);
+    this.auth.signup(this.email, this.pwd, this.username); 
     console.log(this.email);
     console.log(this.pwd);
   }
