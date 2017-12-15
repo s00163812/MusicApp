@@ -1,0 +1,27 @@
+<div class='panel panel-primary'>
+  
+  <div class='panel-body'>
+      <div class='table-responsive'>
+          <table class='table' *ngIf='albums && albums.length'>
+              <tbody>
+                  <tr *ngFor='let album of albums'>
+                      <td>
+                          <img  
+                           [src]='album.imageUrl'
+                           [title]='album.albumName'
+                           [style.width.px]='imageWidth'
+                           [style.margin.px]='imageMargin'>
+                      </td>
+                      <td>{{ album.albumName }}</td>
+                      <td>{{ album.artistName}}</td>
+                      <td><app-star-rating [rating]='album.starRating'></app-star-rating></td>
+                      <td>{{ album.price | currency:'EUR':true:'1.2-2'}}</td>
+                      <td><input type="button" value="Buy" ></td>
+                      <td><a href="">More</a></td>  
+                  </tr>
+              </tbody>
+              
+          </table>
+      </div>
+  </div>
+</div>  

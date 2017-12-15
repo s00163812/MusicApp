@@ -1,0 +1,23 @@
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <form class="navbar-form navbar-left">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search for albums">
+    </div>
+    <button type="submit" class="btn btn-default">Search</button>
+  </form> 
+  <a class="navbar-brand" href="#">Music Web App</a>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a [routerLink] = "['register']">Sign Up</a></li>
+    <li><a [routerLink] = "['login']">Log In</a></li>
+    <li><a class="glyphicon glyphicon-shopping-cart" [routerLink] = "['checkout']">Checkout</a></li>
+  </ul>
+</div>                                                                                             
+
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a [routerLink] = "['trendingNow']">TRENDING NOW <span class="sr-only">(current)</span></a></li>
+    <li><a [routerLink] = "['topWeek']">TOP THIS WEEK</a></li>
+    <li><a [routerLink] = "['topMonth']">TOP THIS MONTH</a></li>
+    <li><a [routerLink] = "['topAllTime']">TOP ALL TIME</a></li>      
+  </ul>
+</nav>
